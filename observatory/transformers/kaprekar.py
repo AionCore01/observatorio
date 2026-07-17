@@ -10,7 +10,7 @@ Dados n dígitos en base b, la transformación consiste en:
 En base 10 con 4 dígitos, el punto fijo es 6174 (constante de Kaprekar).
 """
 
-from typing import Optional, Tuple
+from typing import Tuple
 
 
 class UniversalKaprekarTransformer:
@@ -46,16 +46,19 @@ class UniversalKaprekarTransformer:
             while temp > 0:
                 digits.append(temp % self.base)
                 temp //= self.base
-        # Padding a n_digits
+
+        # Pad to the requested width and normalize to the conventional order:
+        # most significant digit first.
         while len(digits) < self.n_digits:
             digits.append(0)
-        return digits[:self.n_digits]
+        digits = digits[:self.n_digits]
+        return list(reversed(digits))
 
     def from_digits(self, digits: list[int]) -> int:
         """Convierte una lista de dígitos en la base dada a un entero."""
         result = 0
         for i, d in enumerate(digits):
-            result += d * (self.base ** i)
+            result += d * (self.base ** (len(digits) - 1 - i))
         return result
 
     def transform(self, n: int) -> Tuple[int, int, int]:
@@ -68,6 +71,7 @@ class UniversalKaprekarTransformer:
         digits = self.to_digits(n)
         sorted_desc = sorted(digits, reverse=True)
         sorted_asc = sorted(digits)
+
         max_val = self.from_digits(sorted_desc)
         min_val = self.from_digits(sorted_asc)
         return max_val - min_val, max_val, min_val
