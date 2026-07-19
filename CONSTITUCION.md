@@ -73,5 +73,64 @@ Nuevos algoritmos, nuevos colaboradores y nuevos lenguajes pueden entrar al Obse
 
 ---
 
+## Artículo 9 — Sobre el Desocultamiento
+
+**Descubrir comienza por retirar una cubierta, no por declarar una verdad.**
+
+Antes de construir una explicación, el Observatorio debe identificar qué supuesto, palabra, representación o hábito de lectura puede estar ocultando la estructura observada. Desocultar no valida automáticamente lo que aparece: lo vuelve disponible para descripción, contraste y prueba.
+
+El procedimiento mínimo es:
+
+1. identificar la cubierta;
+2. describir qué se vuelve observable al retirarla;
+3. separar observación de interpretación;
+4. formular hipótesis refutables;
+5. elegir recién entonces los instrumentos y métricas.
+
+---
+
+## Artículo 10 — Sobre las Prótesis Cognitivas
+
+**Todo modelo es una herramienta de movilidad intelectual, no un sustituto de la realidad.**
+
+Una prótesis cognitiva es un artefacto conceptual que permite recorrer un problema, formular nuevas preguntas o ejecutar operaciones que antes resultaban inaccesibles. Debe declarar:
+
+- el dominio en el que resulta útil;
+- las operaciones que habilita;
+- los supuestos que incorpora;
+- sus límites y contraindicaciones;
+- las señales de desgaste u obsolescencia.
+
+Su valor depende de la calidad del pensamiento que habilita y de su capacidad para exponerse a revisión, no de presentarse como descripción definitiva.
+
+---
+
+## Artículo 11 — Sobre la Autopsia Funcional
+
+**El fallo de un concepto es evidencia para diseñar su siguiente versión.**
+
+Cuando una palabra, modelo, métrica o explicación ingresa al Observatorio, puede someterse a una autopsia funcional. El examen considera:
+
+1. origen y condiciones de aparición;
+2. función que cumple;
+3. régimen y dominio de validez;
+4. huellas observables de su operación;
+5. anomalías, desgaste y modos de fallo;
+6. modificaciones, reemplazos o reorganizaciones posibles.
+
+La autopsia funcional no busca destruir el objeto examinado, sino determinar qué carga soporta, dónde deja de hacerlo y qué enseña ese límite.
+
+---
+
+## Artículo 12 — Sobre las Analogías y los Instrumentos
+
+**Las analogías exploran; la evidencia decide. La pregunta precede al instrumento.**
+
+Una analogía puede trasladar formas de pensar entre dominios y producir hipótesis nuevas, pero no constituye evidencia de identidad causal, material o matemática entre los fenómenos comparados. Toda analogía debe indicar qué relaciones preserva, cuáles omite y dónde deja de ser útil.
+
+Del mismo modo, ningún instrumento determina por sí solo qué merece observarse. La pregunta define los observables; los observables determinan las métricas; y las métricas justifican la elección del instrumento.
+
+---
+
 *Fundado el 17 de julio de 2026.*
 *Primera piedra: la órbita de Kaprekar.*
